@@ -7,3 +7,36 @@ SQL (Structured Query Language) includes various types of commands for managing 
 ### Create a Database
 ```sql
 CREATE DATABASE your_database_name;
+```
+### Create a Table
+```sql
+CREATE TABLE your_table_name (
+   column1 datatype,
+   column2 datatype,
+   ...
+);
+```
+## Data Manipulation Language (DML)
+
+### Insert Data into the Table
+```sql
+INSERT INTO your_table_name (column1, column2, ...) VALUES (value1, value2, ...);
+```
+## Transaction Control Language (TCL)
+
+### Commit the Transaction
+```sql
+COMMIT;
+```
+### Rollback the Transaction
+```sql
+ROLLBACK;
+```
+
+## Data Manipulation Language (DML)
+
+### Insert Data into the Table
+```sql
+INSERT INTO your_table_name (column1, column2, ...) VALUES (value1, value2, ...);
+```
+
