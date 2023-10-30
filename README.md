@@ -16,6 +16,10 @@ CREATE TABLE your_table_name (
    ...
 );
 ```
+### DROP TABLE
+```sql
+DROP TABLE your_table_name;
+```
 ## Data Manipulation Language (DML)
 
 ### Insert Data into the Table
