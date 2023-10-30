@@ -36,11 +36,13 @@ COMMIT;
 ```sql
 ROLLBACK;
 ```
+## Control Database Access (DCL - Data Control Language):
 
-## Data Manipulation Language (DML)
-
-### Insert Data into the Table
+### Grant privileges to a user or role:
 ```sql
-INSERT INTO your_table_name (column1, column2, ...) VALUES (value1, value2, ...);
+GRANT privilege_name ON table_name TO user_or_role;
 ```
-
+### Revoke privileges from a user or role:
+```sql
+REVOKE privilege_name ON table_name FROM user_or_role;
+```
